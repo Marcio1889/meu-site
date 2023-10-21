@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .contato .top{
+            text-align: center;
+           
+          
+        }
+
+        body{
+            background-color: black;
+            font-size: 18px;
+            color: white;
+            
+        }
+
+        form .for{
+            max-width: 600px;
+            padding: 80px 2%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 8px;
+        
+        }
+
+        form input, form textarea{
+            border-radius:15px;
+            padding: 5px 16px;
+            font-size: 20px;
+            color:white;
+        }
+
+
+        form textarea{
+            resize: none;
+            color: black;
+            
+        }
+
+        h1{
+            
+            font-size: 60px;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+          
+
+        }
+          
+        
+        form.botao {
+            font-size: 1.2em;
+            background-color: rgb(170, 89, 89);
+            border-radius: 15px;
+            margin-bottom: 5em;
+            padding: 0.2em 0.6em;
+            box-shadow: 0px 0px 0px white;
+            
+            
+
+        }
+
+         .botao:hover {
+            background-color: #ffffff;
+            box-shadow: inset 2px 2px 2px;
+            cursor: pointer;
+        }
+
+        .contato .top ul a{
+            
+            color:rgb(57, 99, 99);
+            text-decoration: none;
+  
+           
+           
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form>
+        <section class="contato">
+            <div class="top">
+                <ul>
+                <a href="pagina.html">Inicio</a>
+                </ul> 
+            </div>    
+                <div class="for">
+                    <h1 class="">Contato</h1>
+                    <form class="table">
+                        <label>Nome</label>
+                        <input type="" name="" id="Nome:">
+                        <label>E-mail</label>
+                        <input type="" name="" id="email">
+                        <label> Telefone</label>
+                        <input type="tel" name="" id="telefone">
+                        <label>Cidade</label>
+                        <input type="" name="" id="cidade">
+                        
+                        <label>Mensagem</label>
+                        <textarea name="msg" rows="8" cols="40" placeholder="Digite sua mensagem...">
+                        </textarea>
+                        <button class="botao" type="submit">Enviar</button>
+                    </form>
+                </div>
+        </section>
+    </form>
+    
+</body>
+</html>
